@@ -36,7 +36,7 @@ export default function Header() {
   return (
     <>
       {/* Mobile header */}
-      <div className={`lg:hidden h-[70px] flex flex-row items-center justify-between overflow-hidden px-10 shadow-md sticky top-0 z-50 transition-colors ${scrolled ? 'bg-white/95 backdrop-blur-sm' : 'bg-white'}`}>
+      <div className={`lg:hidden h-[70px] flex flex-row items-center justify-between px-10 shadow-md sticky top-0 z-50 transition-colors ${scrolled ? 'bg-white/95 backdrop-blur-sm' : 'bg-white'}`}>
         <Link href="/">
           <Image src="/images/alameen.jpeg" alt="Logo" width={130} height={50} className="w-[130px] h-[50px]" />
         </Link>
@@ -49,7 +49,7 @@ export default function Header() {
           <Image src="/images/alameen.jpeg" alt="Logo" width={130} height={50} className="w-[160px] h-[70px]" />
         </Link>
 
-        <div className="flex flex-row items-center justify-start gap-5 relative">
+        <div className="flex flex-row items-center justify-start gap-5 relative z-50">
           {navLinks.map((link) => (
             <Link
               key={link.href}

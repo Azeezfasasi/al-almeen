@@ -39,7 +39,7 @@ export default function MobileMenu() {
       {isOpen && (
         <>
           <div className="fixed inset-0 bg-black/50 z-40" onClick={() => setIsOpen(false)} />
-          <div className="fixed top-0 right-0 w-[70%] max-w-[300px] h-full bg-white shadow-xl z-50 p-6">
+          <div className="fixed top-[70px] right-0 w-[70%] max-w-[300px] bg-white shadow-xl z-50 p-6" style={{ maxHeight: 'calc(100vh - 70px)', overflowY: 'auto' }}>
             <button
               onClick={() => setIsOpen(false)}
               className="absolute top-4 right-4 p-2 text-gray-500 hover:text-gray-700"
