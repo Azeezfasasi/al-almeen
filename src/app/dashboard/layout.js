@@ -56,7 +56,7 @@ export default function DashboardLayout({ children }) {
       `}>
         <div className="p-4 border-b border-gray-800">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/images/morad.png" alt="Logo" width={100} height={40} />
+            <Image src="/images/alameen.jpeg" alt="Logo" width={100} height={40} className='rounded-md' />
           </Link>
           <p className="text-xs text-gray-400 mt-1">Content Management</p>
         </div>

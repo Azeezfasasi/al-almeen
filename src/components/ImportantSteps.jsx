@@ -71,7 +71,7 @@ export default function ImportantSteps() {
           </p>
         </div>
 
-        <div className="w-[97%] lg:w-[80%] shadow-md pl-3 mx-auto mt-5 mb-5 rounded-md border border-solid border-gray-200 bg-white">
+        <div className="w-[97%] lg:w-[80%] shadow-md pl-3 mx-auto mt-5 mb-5 rounded-md border border-solid border-gray-200 bg-white overflow-x-hidden">
           {items.map((item, index) => (
             <div key={index} className="w-full flex flex-row items-start justify-center gap-1 mx-auto my-3">
               <Image src="/images/check.svg" alt="check" width={32} height={32} className="w-8 h-8 flex-shrink-0 mt-1" />

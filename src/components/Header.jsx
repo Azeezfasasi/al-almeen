@@ -38,7 +38,7 @@ export default function Header() {
       {/* Mobile header */}
       <div className={`lg:hidden h-[70px] flex flex-row items-center justify-between overflow-hidden px-10 shadow-md sticky top-0 z-50 transition-colors ${scrolled ? 'bg-white/95 backdrop-blur-sm' : 'bg-white'}`}>
         <Link href="/">
-          <Image src="/images/morad.png" alt="Logo" width={130} height={50} className="w-[130px] h-[50px]" />
+          <Image src="/images/alameen.jpeg" alt="Logo" width={130} height={50} className="w-[130px] h-[50px]" />
         </Link>
         <MobileMenu />
       </div>
@@ -46,7 +46,7 @@ export default function Header() {
       {/* Desktop header */}
       <div className={`hidden h-[70px] lg:flex flex-row items-center justify-between overflow-hidden px-10 shadow-md sticky top-0 z-50 transition-colors ${scrolled ? 'bg-white/95 backdrop-blur-sm' : 'bg-white'}`}>
         <Link href="/">
-          <Image src="/images/morad.png" alt="Logo" width={130} height={50} className="w-[130px] h-[50px]" />
+          <Image src="/images/alameen.jpeg" alt="Logo" width={130} height={50} className="w-[160px] h-[70px]" />
         </Link>
 
         <div className="flex flex-row items-center justify-start gap-5 relative">
