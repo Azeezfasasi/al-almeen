@@ -5,7 +5,7 @@ import ContentEditor from '@/components/admin/ContentEditor';
 export default function CommunityEditor() {
   const defaultData = {
     title: 'The Power of Community and Collaboration',
-    description: 'At LASU MBA, we believe that community and collaboration are the keys to success. By working together, sharing ideas, and supporting one another, we can achieve great things. Our community is built on the principles of mutual respect, trust and a shared passion for excellence.\n\nAs Morad always says, "Leadership starts with service." We\'re committed to creating an environment where you can grow, learn, and thrive. Whether you\'re looking for academic support, career guidance, or simply a friendly ear, we\'re here for you.',
+    description: 'At LASU MBA, we believe that community and collaboration are the keys to success. By working together, sharing ideas, and supporting one another, we can achieve great things. Our community is built on the principles of mutual respect, trust and a shared passion for excellence.\n\nAs AL-AMEEN always says, "Leadership starts with service." We\'re committed to creating an environment where you can grow, learn, and thrive. Whether you\'re looking for academic support, career guidance, or simply a friendly ear, we\'re here for you.',
     image: '/images/lasu.jpg',
   };
 

@@ -43,7 +43,7 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-md">
         <div className="flex justify-center mb-6">
-          <Image src="/images/morad.png" alt="Logo" width={130} height={50} />
+          <Image src="/images/alameen.jpeg" alt="Logo" width={130} height={50} />
         </div>
         
         <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">

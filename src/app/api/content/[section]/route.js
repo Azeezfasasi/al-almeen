@@ -73,7 +73,7 @@ function getDefaultContent(section) {
     },
     community: {
       title: 'The Power of Community and Collaboration',
-      description: 'At LASU MBA, we believe that community and collaboration are the keys to success. By working together, sharing ideas, and supporting one another, we can achieve great things. Our community is built on the principles of mutual respect, trust and a shared passion for excellence.\n\nAs Morad always says, "Leadership starts with service." We\'re committed to creating an environment where you can grow, learn, and thrive. Whether you\'re looking for academic support, career guidance, or simply a friendly ear, we\'re here for you.',
+      description: 'At LASU MBA, we believe that community and collaboration are the keys to success. By working together, sharing ideas, and supporting one another, we can achieve great things. Our community is built on the principles of mutual respect, trust and a shared passion for excellence.\n\nAs AL-AMEEN always says, "Leadership starts with service." We\'re committed to creating an environment where you can grow, learn, and thrive. Whether you\'re looking for academic support, career guidance, or simply a friendly ear, we\'re here for you.',
       image: '/images/lasu.jpg',
     },
     steps: {
@@ -127,11 +127,11 @@ function getDefaultContent(section) {
       title: 'Your MBA network starts now, engage with your community from the start.',
       subtitle: 'Below are upcoming important events:',
       events: [
-        'LASUMBA Election: Participate in the voting process to choose the right team for your needs. Morad has the capacity to show!',
+        'LASUMBA Election: Participate in the voting process to choose the right team for your needs. AL-AMEEN has the capacity to show!',
         'MBA Orientation Program: Participate in this event that is organized and designed to welcome and integrate new students into the LASU MBA program.',
         'Get involved and expand your network by joining LASUMBA and GBENUSI Community.',
       ],
-      quote: 'As you begin this journey, remember to "enjoy the journey, not just the destination." The future is in our hands and MORAD is committed to making this MBA experience smoother for everyone.',
+      quote: 'As you begin this journey, remember to "enjoy the journey, not just the destination." The future is in our hands and AL-AMEEN is committed to making this MBA experience smoother for everyone.',
     },
   };
   

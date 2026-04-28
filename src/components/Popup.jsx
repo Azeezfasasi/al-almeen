@@ -6,15 +6,24 @@ export default function Popup() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setOpen(true), 500);
-    return () => clearTimeout(timer);
+    const hasSeenPopup = localStorage.getItem('hasSeenWelcomePopup');
+    
+    if (!hasSeenPopup) {
+      const timer = setTimeout(() => setOpen(true), 500);
+      return () => clearTimeout(timer);
+    }
   }, []);
+
+  const handleClose = () => {
+    setOpen(false);
+    localStorage.setItem('hasSeenWelcomePopup', 'true');
+  };
 
   if (!open) return null;
 
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-black/50" onClick={() => setOpen(false)} />
+      <div className="absolute inset-0 bg-black/50" onClick={handleClose} />
       <div className="relative bg-white rounded-lg shadow-xl max-w-lg w-full max-h-[90vh] overflow-y-auto">
         <div className="p-6">
           <div className="text-justify space-y-3 text-gray-700">
@@ -24,12 +33,12 @@ export default function Popup() {
             <p>From your screening process to settling in, we are here to assist you every step of the way and help make your experience as seamless as possible.</p>
             <p>Once again, welcome to LASU. We wish you a rewarding journey ahead.</p>
             <p>Warm regards,</p>
-            <p className="italic font-medium">Morad</p>
+            <p className="italic font-medium">AL-AMEEN</p>
           </div>
         </div>
         <div className="p-4 border-t border-gray-200 flex justify-end">
           <button
-            onClick={() => setOpen(false)}
+            onClick={handleClose}
             className="px-6 py-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-md transition-colors"
           >
             Close

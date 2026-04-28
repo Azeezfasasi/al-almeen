@@ -23,11 +23,11 @@ export default function Network() {
     title: 'Your MBA network starts now, engage with your community from the start.',
     subtitle: 'Below are upcoming important events:',
     events: [
-      'LASUMBA Election: Participate in the voting process to choose the right team for your needs. Morad has the capacity to show!',
+      'LASUMBA Election: Participate in the voting process to choose the right team for your needs. AL-AMEEN has the capacity to show!',
       'MBA Orientation Program: Participate in this event that is organized and designed to welcome and integrate new students into the LASU MBA program.',
       'Get involved and expand your network by joining LASUMBA and GBENUSI Community.',
     ],
-    quote: 'As you begin this journey, remember to "enjoy the journey, not just the destination." The future is in our hands and MORAD is committed to making this MBA experience smoother for everyone.',
+    quote: 'As you begin this journey, remember to "enjoy the journey, not just the destination." The future is in our hands and AL-AMEEN is committed to making this MBA experience smoother for everyone.',
   };
 
   const events = data.events || [];
