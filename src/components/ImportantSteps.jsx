@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { fetchContent } from '@/lib/api';
+import Link from 'next/link';
 
 export default function ImportantSteps() {
   const [content, setContent] = useState(null);
@@ -82,6 +83,11 @@ export default function ImportantSteps() {
               </div>
             </div>
           ))}
+          <div className='pl-8 pb-4'>
+            <Link href="https://chat.whatsapp.com/HIYN1KS826Y3iJ38kM3p1k?mode=gi_t5" target="_blank" rel="noopener noreferrer" className="text-orange-700 hover:underline font-semibold">
+              Click here for more information
+            </Link>
+          </div>
         </div>
 
       <div className="flex flex-col items-start justify-center relative overflow-hidden">
